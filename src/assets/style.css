@@ -1,0 +1,658 @@
+@import url("https://fonts.googleapis.com/css2?family=Courgette&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Courgette&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Courgette&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+.home-section-1 {
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.home-section-1 .gif {
+  text-align: center;
+}
+
+.home-section-1 .carousel-1 img {
+  height: 500px;
+  width: 100%;
+}
+
+.home-section-1 .carousel-1 .carousel-caption {
+  bottom: 9.25rem;
+}
+
+.home-section-1 .carousel-1 .carousel-caption h2 {
+  text-transform: uppercase;
+  font-size: 70px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  letter-spacing: 12px;
+  line-height: 1.5;
+}
+
+.home-section-1 .carousel-1 .carousel-caption h1 {
+  font-family: "Courgette", cursive;
+  font-size: 50px;
+}
+
+.home-section-1 .carousel-1 .carousel-caption button {
+  background-color: white;
+  color: #D61C22;
+  border-radius: 8px;
+  border: none;
+  text-transform: uppercase;
+  font-size: 10px;
+  width: 100px;
+  height: 30px;
+  -webkit-transition: 1.2s;
+  transition: 1.2s;
+}
+
+.home-section-1 .carousel-1 .carousel-caption button:hover {
+  background-color: #D61C22;
+  color: white;
+}
+
+.home-section-1 .carousel-1 .carousel-indicators button {
+  width: 15px;
+  height: 15px;
+  border-radius: 100%;
+  border: 1px solid white;
+}
+
+.home-section-1 .carousel-1 .carousel-indicators .active {
+  background-color: #D61C22;
+}
+
+.home-section-2 {
+  height: 600px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #e5e3e3;
+}
+
+.home-section-2 .italian-res-content {
+  text-align: center;
+}
+
+.home-section-2 .italian-res-content h3 {
+  font-family: "Courgette";
+  color: #D61C22;
+}
+
+.home-section-2 .italian-res-content h1 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  letter-spacing: 8px;
+  line-height: 1.2;
+}
+
+.home-section-2 .italian-res-content p {
+  font-size: 13px;
+  max-width: 400px;
+  line-height: 1.7;
+  margin: auto;
+  color: #666666;
+}
+
+.home-section-2 .italian-res-content a {
+  text-decoration: none;
+  color: #666666;
+  font-size: 12px;
+  text-transform: uppercase;
+  -webkit-transition: 1s;
+  transition: 1s;
+  line-height: 4;
+}
+
+.home-section-2 .italian-res-content a:hover {
+  color: #D61C22;
+}
+
+.home-section-2 .italian-res-food img {
+  width: 340px;
+  height: 340px;
+  border-radius: 15px;
+  margin-top: -40px;
+}
+
+.home-section-3 {
+  background-image: url("https://preview.colorlib.com/theme/pato/images/bg-intro-01.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 60% 0;
+  height: 390px;
+  background-attachment: fixed;
+}
+
+.home-section-3 .section-3-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 330px;
+  text-align: center;
+}
+
+.home-section-3 .section-3-content p {
+  color: #D61C22;
+  font-family: 'Courgette';
+  font-size: 30px;
+  line-height: 0;
+}
+
+.home-section-3 .section-3-content h1 {
+  color: white;
+  font-family: "Poppins";
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 7px;
+}
+
+.home-section-4 {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 500px;
+}
+
+.home-section-4 .card {
+  font-family: "Montserrat";
+  border: none;
+}
+
+.home-section-4 .card h5 {
+  color: black;
+}
+
+.home-section-4 .card a {
+  text-decoration: none;
+  color: #666666;
+  text-transform: uppercase;
+  font-size: 12px;
+}
+
+.home-section-4 .card p {
+  color: #666666;
+  font-size: 15px;
+}
+
+.home-section-4 .card .card-img-top {
+  overflow: scroll;
+}
+
+.home-section-5 {
+  background-color: #e5e3e3;
+  height: 1000px;
+}
+
+.home-section-5 .section-5-content {
+  text-align: center;
+}
+
+.home-section-5 .section-5-content p {
+  color: #D61C22;
+  font-family: 'Courgette';
+  font-size: 30px;
+}
+
+.home-section-5 .section-5-content h1 {
+  font-family: "Poppins";
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 10px;
+}
+
+.home-section-5 .our-menu-img-1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.home-section-5 .our-menu-img-1 img {
+  width: 370px;
+  height: 490px;
+  border-radius: 10px;
+  position: relative;
+}
+
+.home-section-5 .our-menu-img-1 button {
+  width: 150px;
+  height: 60px;
+  border-radius: 10px;
+  border: none;
+  background-color: #e5e3e3;
+  position: absolute;
+  text-transform: uppercase;
+  font-size: 22px;
+  -webkit-transition: 1s;
+  transition: 1s;
+  font-family: 'Poppins';
+}
+
+.home-section-5 .our-menu-img-1 button:hover {
+  color: white;
+  background-color: #D61C22;
+}
+
+.home-section-5 .our-menu-img-2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.home-section-5 .our-menu-img-2 img {
+  width: 370px;
+  height: 232px;
+  border-radius: 10px;
+  position: relative;
+}
+
+.home-section-5 .our-menu-img-2 button {
+  width: 180px;
+  height: 60px;
+  border-radius: 10px;
+  border: none;
+  background-color: #e5e3e3;
+  position: absolute;
+  text-transform: uppercase;
+  font-size: 22px;
+  -webkit-transition: 1s;
+  transition: 1s;
+  font-family: 'Poppins';
+}
+
+.home-section-5 .our-menu-img-2 button:hover {
+  color: white;
+  background-color: #D61C22;
+}
+
+.home-section-5 .our-menu-img-3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.home-section-5 .our-menu-img-3 img {
+  width: 745px;
+  height: 232px;
+  border-radius: 10px;
+  position: relative;
+}
+
+.home-section-5 .our-menu-img-3 button {
+  width: 255px;
+  height: 60px;
+  border-radius: 10px;
+  border: none;
+  background-color: #e5e3e3;
+  position: absolute;
+  text-transform: uppercase;
+  font-size: 22px;
+  -webkit-transition: 1s;
+  transition: 1s;
+  font-family: 'Poppins';
+}
+
+.home-section-5 .our-menu-img-3 button:hover {
+  color: white;
+  background-color: #D61C22;
+}
+
+.home-section-5 .our-menu-img-4 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.home-section-5 .our-menu-img-4 img {
+  width: 370px;
+  height: 232px;
+  border-radius: 10px;
+  position: relative;
+}
+
+.home-section-5 .our-menu-img-4 button {
+  width: 173px;
+  height: 60px;
+  border-radius: 10px;
+  border: none;
+  background-color: #e5e3e3;
+  position: absolute;
+  text-transform: uppercase;
+  font-size: 22px;
+  -webkit-transition: 1s;
+  transition: 1s;
+  font-family: 'Poppins';
+}
+
+.home-section-5 .our-menu-img-4 button:hover {
+  color: white;
+  background-color: #D61C22;
+}
+
+.home-section-6 .carousel-2 {
+  height: 800px;
+}
+
+.home-section-6 .carousel-2 .carousel-caption {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  height: 700px;
+}
+
+.home-section-6 .carousel-2 .carousel-caption p {
+  color: #D61C22;
+  font-family: 'Courgette';
+  font-size: 30px;
+  line-height: 0;
+}
+
+.home-section-6 .carousel-2 .carousel-caption h1 {
+  color: white;
+  font-family: "Poppins";
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 7px;
+}
+
+.home-section-6 .carousel-2 .carousel-indicators button {
+  width: 15px;
+  height: 15px;
+  border-radius: 100%;
+  border: 1px solid white;
+}
+
+.home-section-6 .carousel-2 .carousel-indicators .active {
+  background-color: #D61C22;
+}
+
+.home-section-6 .carousel-2 .box {
+  width: 1100px;
+  height: 390px;
+  background-color: #f8f6f6;
+  border-radius: 10px;
+}
+
+.home-section-6 .carousel-2 .box img {
+  width: 585px;
+  height: 390px;
+}
+
+.home-section-6 .carousel-2 .box h4 {
+  color: black;
+  text-transform: uppercase;
+  font-family: 'Montserrat';
+}
+
+.home-section-6 .carousel-2 .box p {
+  color: #666666;
+  font-family: 'Montserrat';
+  line-height: 1;
+  font-size: 15px;
+  text-align: center;
+}
+
+.home-section-7 img {
+  width: 390px;
+  height: 390px;
+}
+
+.nav {
+  background-color: black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: right;
+      -ms-flex-align: right;
+          align-items: right;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 500px;
+  width: 500px;
+  position: absolute;
+  right: 0;
+  z-index: 1;
+}
+
+.nav .list-icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  opacity: 0.6;
+}
+
+.nav .main-nav {
+  background-color: black;
+  height: 500px;
+  width: 500px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.nav .main-nav li {
+  list-style: none;
+}
+
+.nav .main-nav li a {
+  text-decoration: none;
+  color: white;
+  font-size: 30px;
+}
+
+.nav .open-svg, .nav .close-svg {
+  width: 60px;
+  height: 500px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: black;
+}
+
+.nav .open-svg svg, .nav .close-svg svg {
+  font-size: 40px;
+  color: white;
+}
+
+.meals-section-1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.meals-section-1 .meals {
+  position: relative;
+  -webkit-transition: 1.2s;
+  transition: 1.2s;
+}
+
+.meals-section-1 .meals:hover .add-to-cart-btn {
+  display: block;
+}
+
+.meals-section-1 .meals img {
+  width: 350px;
+  height: 240px;
+  margin-top: 30px;
+}
+
+.meals-section-1 .meals p {
+  height: 55px;
+}
+
+.meals-section-1 .meals .add-to-cart-btn {
+  position: absolute;
+  bottom: 98px;
+  width: 350px;
+  border-radius: 0;
+  display: none;
+}
+
+.meals-section-1 button {
+  width: 150px;
+  height: 50px;
+  border: none;
+  background-color: #121229;
+  border-radius: 5px;
+  color: white;
+  font-size: 18px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.meals-section-1 .breakfast-div, .meals-section-1 .supper-div, .meals-section-1 .dinner-div, .meals-section-1 .drink-div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.meals-section-1 .each-meal {
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 570px;
+  height: 600px;
+  background-color: rgba(0, 0, 0, 0.8);
+  text-align: left;
+  line-height: 2;
+  color: white;
+}
+
+.meals-section-1 .each-meal img {
+  width: 350px;
+  height: 240px;
+}
+
+.cart .cart-items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.cart .cart-items img {
+  width: 150px;
+  height: 100px;
+}
+
+.cart .cart-items input {
+  width: 40px;
+  height: 30;
+}
+
+.cart .cart-items button {
+  width: 30px;
+  height: 30px;
+}
+/*# sourceMappingURL=style.css.map */

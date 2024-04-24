@@ -1,0 +1,62 @@
+.meals-section-1{
+    display: flex;
+    justify-content: center;
+.meals{
+    position: relative;
+    transition: 1.2s;
+    &:hover{
+        .add-to-cart-btn{
+            display: block;
+        }
+    }
+    img{
+        width: 350px;
+        height: 240px;
+        margin-top: 30px;
+    }
+    p{
+        height: 55px;
+    }
+    .add-to-cart-btn{
+        position: absolute;
+        bottom: 98px;
+        width: 350px;
+        border-radius: 0;
+        display: none;
+    }
+   
+}
+    button{
+        width: 150px;
+        height: 50px;
+        border: none;
+        background-color: rgb(18, 18, 41);
+        border-radius: 5px;
+        color: white;
+        font-size: 18px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    .breakfast-div,.supper-div,.dinner-div,.drink-div{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .each-meal{
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 570px;
+        height: 600px;
+        background-color: rgba(0, 0, 0, 0.8);
+        text-align: left;
+        line-height: 2;
+        color: white;
+        
+        img{
+            width: 350px;
+            height: 240px;
+        }
+    }
+}

@@ -1,0 +1,45 @@
+export const GalleryData={
+    interior:[
+        {
+            id:1,
+            img:"https://preview.colorlib.com/theme/pato/images/photo-gallery-18.jpg"
+        },
+        {
+            id:2,
+            img:"https://preview.colorlib.com/theme/pato/images/photo-gallery-19.jpg"
+        },
+        {
+            id:3,
+            img:"https://preview.colorlib.com/theme/pato/images/photo-gallery-20.jpg"
+        }
+    ],
+    food:[
+        {
+            id:4,
+            img:"https://preview.colorlib.com/theme/pato/images/photo-gallery-14.jpg"
+        },
+        {
+            id:5,
+            img:"https://preview.colorlib.com/theme/pato/images/photo-gallery-16.jpg"
+        },
+        {
+            id:6,
+            img:"https://preview.colorlib.com/theme/pato/images/photo-gallery-17.jpg"
+        }
+    ],
+    events:[
+        {
+            id:7,
+            img:"https://preview.colorlib.com/theme/pato/images/photo-gallery-13.jpg"
+        },
+        {
+            id:8,
+            img:"https://preview.colorlib.com/theme/pato/images/photo-gallery-15.jpg"
+        },
+        {
+            id:9,
+            img:"https://preview.colorlib.com/theme/pato/images/photo-gallery-21.jpg"
+        }
+
+    ]
+}
